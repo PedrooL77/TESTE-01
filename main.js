@@ -1,8 +1,8 @@
 document.addEventListener( "click" , showcolor );
 
-document.getElementById( "botao" ).addEventListener( "click" , shownome )
+document.getElementById( "botao" ).addEventListener( "click" , shownome );
 
-document.getElementById( "number" ).addEventListener( "click" , shownumber)
+document.getElementById( "number" ).addEventListener( "click" , shownumber);
 
 function showcolor()
 {
