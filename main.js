@@ -19,13 +19,13 @@ function shownome()
 function shownumber()
 {
     let numero = document.getElementById( "number" ).value;
-    document.getElementById( "resultado1").innerHTML = "Somar" + numero
+    document.getElementById( "btn-soma").innerHTML = "Somar" + numero
     document.getElementById( "number").value = ""
 }
 
 function shownumber()
 {
     let numero = document.getElementById( "number" ).value;
-    document.getElementById( "resultado1").innerHTML = "Somar" + numero
+    document.getElementById( "btn-soma").innerHTML = "Somar" + numero
     document.getElementById( "number").value = ""
 }
