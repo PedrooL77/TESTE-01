@@ -20,5 +20,5 @@ function shownumber()
 {
     let numero = document.getElementById( "num1" ).value;
     let numero = document.getElementById( "num2" ).value;
-    document.getElementById( "resultado1").innerHTML = "num1" + "num2";
+    document.getElementById( "btn-soma").innerHTML = "num1" + "num2";
 }
