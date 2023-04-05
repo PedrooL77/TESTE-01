@@ -4,8 +4,6 @@ document.getElementById( "botao" ).addEventListener( "click" , shownome )
 
 document.getElementById( "num1" ).addEventListener( "click" ,shownumber)
 
-document.getElementById( "num2" ).addEventListener( "click" ,shownumber)
-
 function showcolor()
 {
     document.body.style.backgroundColor = "red";
