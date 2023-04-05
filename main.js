@@ -19,6 +19,6 @@ function shownome()
 function shownumber()
 {
     let numero = document.getElementById( "num1" ).value;
-    document.getElementById( "resultado1").innerHTML = "num1" + "num2";
-    document.getElementById( "num1").value = "resultado1";
+    document.getElementById( "resultado1").innerHTML = "num1" + "num2" + numero;
+    document.getElementById( "num1").value = "";
 }
