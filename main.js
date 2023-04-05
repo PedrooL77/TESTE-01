@@ -22,10 +22,3 @@ function shownumber()
     document.getElementById( "resultado1").innerHTML = "num1" + "num2";
     document.getElementById( "num1").value = "";
 }
-
-function shownumber()
-{
-    let numero = document.getElementById( "num2" ).value;
-    document.getElementById( "resultado1").innerHTML = "number" + numero;
-    document.getElementById( "num2").value = "";
-}
