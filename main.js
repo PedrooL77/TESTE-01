@@ -18,14 +18,14 @@ function shownome()
 
 function shownumber()
 {
-    let numero = document.getElementById( "number" ).value;
+    let numero = document.getElementById( "num1" ).value;
     document.getElementById( "resultado1").innerHTML = "Somar" + numero
     document.getElementById( "number").value = ""
 }
 
 function shownumber()
 {
-    let numero = document.getElementById( "number" ).value;
+    let numero = document.getElementById( "num2" ).value;
     document.getElementById( "resultado1").innerHTML = "Somar" + numero
     document.getElementById( "number").value = ""
 }
