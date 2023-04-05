@@ -12,20 +12,20 @@ function showcolor()
 function shownome()
 {
     let usuario = document.getElementById( "nome" ).value;
-    document.getElementById( "mensagem" ).innerHTML = "Meu nome é:" + usuario
+    document.getElementById( "mensagem" ).innerHTML = "Meu nome é:" + usuario;
     document.getElementById( "nome" ).value = "";
 }
 
 function shownumber()
 {
     let numero = document.getElementById( "num1" ).value;
-    document.getElementById( "resultado1").innerHTML = "number" + numero
+    document.getElementById( "resultado1").innerHTML = "num1" + "num2";
     document.getElementById( "num1").value = "";
 }
 
 function shownumber()
 {
     let numero = document.getElementById( "num2" ).value;
-    document.getElementById( "resultado1").innerHTML = "number" + numero
+    document.getElementById( "resultado1").innerHTML = "number" + numero;
     document.getElementById( "num2").value = "";
 }
